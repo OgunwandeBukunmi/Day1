@@ -1,0 +1,68 @@
+body{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+:root{
+  --primary : rgb(255, 116, 29);
+  --secodary : white;
+}
+#app{
+  width : 100vw;
+  min-height : 100vh;
+  background-color :  var(--primary);
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  
+}.main-form{
+  display :flex;
+  flex-direction: column;
+  align-items :center;
+  min-width : 25vw;
+  margin : 10px;
+  padding :30px;
+  border-radius :20px;
+  background-color: var(--secodary);
+  color : var(--primary);
+ 
+}.main-form div input{
+  width : 20vw;
+  outline :none;
+  height : 3.5vh;
+  border : var(--primary) solid 1px;
+  border-radius : 10px;
+  padding : 5px;
+  font-size: 1rem;
+ 
+}
+.main-form div button{
+  height : 3.5vh;
+  width : 5vw;
+  color : var(--secodary);
+  background-color: var(--primary);
+  border :none;
+  border-radius : 5px;
+
+}.Lists{
+
+  padding :0;
+  min-height : 100px;
+  display : flex;
+  flex-direction: column;
+  align-items : center;
+  gap : 5px;
+  width : 20vw;
+}.Lists li {
+  margin : 0;
+  display : flex;
+  align-items: center;
+  justify-content: space-around;
+  padding :5px;
+  width :100%;
+  list-style: none;
+  background-color : var(--primary);
+  color : var(--secodary);
+  border-radius: 10px;
+}
